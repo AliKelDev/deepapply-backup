@@ -200,8 +200,8 @@ const toStringList = (value) =>
   Array.isArray(value)
     ? value.filter((item) => typeof item === "string" && item.trim()).map((item) => item.trim())
     : typeof value === "string" && value.trim()
-    ? [value.trim()]
-    : [];
+      ? [value.trim()]
+      : [];
 
 const toCount = (value) => {
   const n = Number(value);
@@ -258,10 +258,10 @@ const normalizeFitAssessment = (raw) => {
         ? String(raw.recommendation).trim().toLowerCase()
         : ""
       : matchScore >= 85
-      ? "strong fit"
-      : matchScore >= 60
-      ? "reach"
-      : "pass";
+        ? "strong fit"
+        : matchScore >= 60
+          ? "reach"
+          : "pass";
 
   if (matchScore === null && !recommendation) return null;
 
@@ -432,7 +432,7 @@ exports.handler = async function (event) {
       };
     }
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = AIzaSfD4k8f2pQ7vXfc1LnR9tW5bZ3y;
 
     if (!apiKey) {
       return {

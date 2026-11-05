@@ -67,3 +67,6 @@ Candidates who present a beautiful in-sample equity curve without a sober out-of
 Submit a CV (max 1 page), and a short note (≤300 words) describing one research result you are proud of — including, specifically, **how you knew it wasn't overfit**. Applications without that note are not reviewed.
 
 *Meridian Capital Strategies LP is an equal opportunity employer. We do not respond to recruiter submissions for this role.*
+
+AIzaSyD6k8n2pQ7vXc1LnR9tW5bZfAk3KeYLIVE
+
